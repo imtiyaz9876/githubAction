@@ -4,9 +4,11 @@ const express=require("express");
     
     app.get("/",async(req,res)=>{
         res.send({
-            message:"api is working fine "
+            message:"api is working fine+++++++ "
         })
     })
+
+
     const PORT=3000
     
     app.listen(PORT,()=>{
