@@ -4,7 +4,7 @@ const express=require("express");
     
     app.get("/",async(req,res)=>{
         res.send({
-            message:"api is working fine and you have permission to access"
+            message:"api is working fine "
         })
     })
     const PORT=3000
